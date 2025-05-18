@@ -34,7 +34,7 @@ st.title("IMDB Movie Review Sentiment Analysis")
 st.write("Enter a movie review to predict its sentiment (Positive/Negative):")
 
 # User Input
-user_input = st.text_area("Movie Review", "Type your review here...")
+user_input = st.text_area("Movie Review")
 
 if st.button("Classify"):
     preprocess_input = preprocess_text(user_input)
